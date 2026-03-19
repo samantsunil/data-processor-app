@@ -4,31 +4,31 @@
 	<groupId>com.iot.app.spark</groupId>
 	<artifactId>data-processor-app</artifactId>
 	<version>1.0.0</version>
-	<name>Spark Data Processor</name>
+	<name>Spark Data Processor</name>F
 
 	<dependencies>
 <!-- Source: https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
 <dependency>
     <groupId>org.apache.spark</groupId>
-    <artifactId>spark-core_2.13</artifactId>
-    <version>4.1.1</version>
+    <artifactId>spark-core_4.0.1</artifactId>
+    <version>4.0.1</version>
     <scope>compile</scope>
 </dependency>
 <dependency>
     <groupId>org.apache.spark</groupId>
-    <artifactId>spark-streaming_2.13</artifactId>
-    <version>4.1.1</version>
+    <artifactId>spark-streaming_4.0.1</artifactId>
+    <version>4.0.1</version>
     <scope>provided</scope>
 </dependency>
 			<groupId>org.apache.spark</groupId>
-			<artifactId>spark-sql_2.13</artifactId>
-			<version>4.1.1</version>
+			<artifactId>spark-sql_4.0.1</artifactId>
+			<version>4.0.1</version>
 		</dependency>
 		<!-- Spark cassandra -->
 		<dependency>
-			<groupId>com.datastax.spark</groupId>
-			<artifactId>spark-cassandra-connector_2.13</artifactId>
-			<version>4.1.1</version>
+			<groupId>com.datastax.</groupId>
+			<artifactId>spark-cassandra-connector_4.0.1</artifactId>
+			<version>4.0.1</version>
 		</dependency>
 		 <dependency>
                         <groupId>com.izettle</groupId>
